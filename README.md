@@ -91,4 +91,4 @@ Kesimpulan
 initState dan dispose adalah dua metode yang sangat penting dalam lifecycle stateful widget di Flutter. Dengan memahami fungsi dari kedua metode ini, kita dapat menulis kode yang lebih efisien, aman, dan terkelola dengan baik. "
 
 
-![result build](assets/ScreenRecording2024-11-12111402-ezgif.com-gif-maker.mp4)
+![result build](assets/ScreenRecording2024-11-12111402-ezgif.com-video-to-gif-converter.gif)
