@@ -92,3 +92,10 @@ initState dan dispose adalah dua metode yang sangat penting dalam lifecycle stat
 
 
 ![result build](assets/ScreenRecording2024-11-12111402-ezgif.com-video-to-gif-converter.gif)
+
+#### Jelaskan mana yang dimaksud InheritedWidget pada langkah 1 tersebut! Mengapa yang digunakan InheritedNotifier?
+" InheritedWidget di sini berfungsi sebagai wadah untuk berbagi data di antara widget-widget yang saling terkait. InheritedNotifier dipilih karena cocok untuk situasi di mana data yang dibagikan bisa berubah-ubah seiring waktu. Ketika data berubah, semua widget yang bergantung pada data tersebut akan secara otomatis diperbarui, sehingga tampilan aplikasi menjadi lebih responsif. "
+
+#### Jelaskan maksud dari method di langkah 3 pada praktikum tersebut! Mengapa dilakukan demikian?
+" Metode completedCount menghitung jumlah tugas yang memiliki properti complete bernilai true pada daftar tasks dalam objek Plan. Sementara itu, metode completenessMessage menghasilkan sebuah string yang menggambarkan persentase penyelesaian rencana berdasarkan hasil perhitungan dari completedCount. Tujuannya adalah untuk membuat data mengenai progres penyelesaian rencana menjadi lebih mudah diakses dan dimanipulasi. Dengan adanya dua metode ini, kita dapat menampilkan informasi yang relevan dan up-to-date kepada pengguna tanpa perlu menulis ulang logika perhitungan di berbagai tempat dalam kode. "
+
